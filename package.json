@@ -1,0 +1,38 @@
+{
+    "name": "babelts",
+    "version": "0.0.0",
+    "description": "Run TypeScript code with Babel.",
+    "keywords": [
+        "babel",
+        "node",
+        "ts",
+        "typescript"
+    ],
+    "homepage": "https://github.com/DylanVann/babelts#readme",
+    "bugs": {
+        "url": "https://github.com/DylanVann/babelts/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DylanVann/babelts.git"
+    },
+    "license": "MIT",
+    "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/index.test.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/preset-env": "^7.6.2",
+        "@babel/preset-typescript": "^7.6.0",
+        "@babel/register": "^7.6.2",
+        "hard-rejection": "^2.1.0"
+    },
+    "devDependencies": {
+        "mocha": "^6.2.1"
+    }
+}
