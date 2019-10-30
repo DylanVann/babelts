@@ -1,5 +1,7 @@
 # babelts
 
+![npm](https://img.shields.io/npm/v/babelts)
+
 ```sh
 node --require babelts myFile.ts
 ```
