@@ -1,6 +1,6 @@
 {
     "name": "babelts",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Run TypeScript code with Babel.",
     "keywords": [
         "babel",
@@ -26,13 +26,13 @@
         "test": "mocha test/index.test.js"
     },
     "dependencies": {
-        "@babel/core": "^7.6.2",
-        "@babel/preset-env": "^7.6.2",
+        "@babel/core": "^7.6.4",
+        "@babel/preset-env": "^7.6.3",
         "@babel/preset-typescript": "^7.6.0",
         "@babel/register": "^7.6.2",
         "hard-rejection": "^2.1.0"
     },
     "devDependencies": {
-        "mocha": "^6.2.1"
+        "mocha": "^6.2.2"
     }
 }
